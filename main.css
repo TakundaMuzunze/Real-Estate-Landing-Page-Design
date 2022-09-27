@@ -37,3 +37,16 @@ nav{
 li{
     list-style: none;
 }
+
+.btn{
+    background-color: rgb(60, 112, 255);
+
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+
+    color: white;
+    text-align: center;
+
+    text-transform: uppercase;
+}
