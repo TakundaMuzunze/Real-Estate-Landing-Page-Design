@@ -5,4 +5,17 @@ body{
     font-family: 'Poppins';
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav-links{
+    justify-content: space-around;
+    display:flex;
+}
+
+.nav-links li{
+list-style-type: none;
+}
