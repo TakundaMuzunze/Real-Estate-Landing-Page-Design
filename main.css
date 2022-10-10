@@ -19,3 +19,7 @@ nav{
 .nav-links li{
 list-style-type: none;
 }
+
+.action-sta{
+    text-align:center;
+}
