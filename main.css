@@ -20,6 +20,51 @@ nav{
 list-style-type: none;
 }
 
+/*Main Focus Section*/
 .action-sta{
     text-align:center;
+    padding: 5%;
+}
+
+.title-text{
+    text-transform: uppercase;
+}
+
+.title-text h5{
+    color: #00A9FF;
+}
+
+.title-text h1{
+    font-weight: bold;
+}
+
+.flex-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-1{
+    height: 250px;
+    width: 300px;
+
+}
+
+.item{
+    height: 250px;
+    width: 300px;
+
+}
+
+.more-btn{
+    color: #00A9FF;
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #00A9FF;
+
+    width: 100px;
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
 }
