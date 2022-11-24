@@ -34,8 +34,8 @@ nav {
     font-weight: bold;
     font-size: 14px;
 }
-.active{
-    color:rgb(0, 140, 255);
+.nav-links .active{
+    color:rgb(0, 114, 207);
 }
 /*Hero Section*/
 .hero{
