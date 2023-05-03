@@ -14,12 +14,36 @@ body{
     margin-bottom: 40px;
 }
 
-.title-text h5{
+.title-text > h5{
     color: #00A9FF;
 }
 
-.title-text h1{
+.title-text > h1{
     font-weight: bold;
+}
+
+hr{
+    height: 1px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.13);
+    opacity: 50%;
+}
+
+.btn{
+    color: #00A9FF;
+    background-color: transparent;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #00A9FF;
+
+    width: 100px;
+    padding: 10px 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: block;
+    margin: 0 auto;
 }
 
 /*Navigation Bar*/
@@ -81,6 +105,7 @@ nav {
     justify-content: center;
     align-items: center;
     column-gap: 20px;
+
 }
 
 .item, .item-1{
@@ -121,4 +146,37 @@ nav {
 
     font-size: 16px;
     font-weight: bold;
+}
+
+/*Our Property Section*/
+.property-card{
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-container{
+    padding: 10px 20px;
+}
+.property-card > img {
+    width: 400px;
+    height: auto;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+.property-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-title > p{
+    color:#00A9FF;
+    font-weight: bolder;
+}
+
+.property-desc{
+    display: flex;
+    justify-content:flex-start;
+    column-gap:10px;
 }
