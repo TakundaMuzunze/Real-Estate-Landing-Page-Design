@@ -183,7 +183,7 @@ nav {
 .property-desc{
     display: flex;
     justify-content:flex-start;
-    column-gap:10px;
+    column-gap:15px;
 }
 
 .user-info{
@@ -193,7 +193,29 @@ nav {
     height: auto;
 }
 
+.user-info > i{
+    width: auto;
+    height: 24px;
+}
+
 /*Featured Properties*/
 .featured-grid{
     background-color:rgba(0, 140, 255, 0.116);
+}
+
+.card-featured{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card-container2{
+    padding: 20px 30px;
+}
+
+.image-column > img{
+    width: 300px;
+    border-radius: 0 15px 15px 0;
 }
