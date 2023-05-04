@@ -154,17 +154,18 @@ nav {
 }
 
 /*Our Property Section*/
-.property-card{
+.card{
     border: 1px solid transparent;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
 }
 
 .card-container{
     padding: 10px 20px;
 }
-.property-card > img {
-    width: 300px;
+.card > img {
+    width: 400px;
     height: auto;
     
     border-radius: 15px 15px 0 0;
@@ -212,10 +213,24 @@ nav {
 }
 
 .card-container2{
-    padding: 20px 30px;
+    padding: 30px 20px;
 }
 
 .image-column > img{
     width: 300px;
     border-radius: 0 15px 15px 0;
+}
+
+/*Blog Section*/
+.blog-desc p{
+    opacity: 50%;
+}
+
+.card-btn {
+    text-transform: uppercase;
+    color: #00A9FF;
+}
+
+.card-btn:hover{
+    font-weight: bolder;
 }
