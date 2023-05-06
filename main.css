@@ -26,7 +26,7 @@ hr{
     height: 1px;
     width: 100%;
     color: rgba(0, 0, 0, 0.13);
-    opacity: 50%;
+    opacity: 35%;
 }
 
 .btn{
@@ -49,6 +49,10 @@ hr{
 
 section{
     padding: 50px 0;
+}
+
+span{
+    color:#00A9FF;
 }
 
 /*Navigation Bar*/
@@ -257,4 +261,30 @@ nav {
 
 .checked {
     color: orange;
-  }
+}
+
+/*Footer Section*/
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    width: 100vw;
+}
+
+.comp-desc{
+    width: 250px;
+    font-size: 16px;
+}
+
+.footer-links{
+    list-style-type: none;
+    color:rgb(87, 87, 87);
+}
+.footer-links a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    font-weight: bolder; 
+    text-decoration: underline;
+}
