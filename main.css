@@ -94,6 +94,9 @@ nav{
     text-align: center;
     padding: 20px;
 }
+.main-nav li:hover{
+    font-weight: bolder;
+}
 
 .logo {
     font-weight: bolder;
@@ -120,7 +123,7 @@ nav{
     margin: 20px auto;
 } */
 
-.nav-links .active{
+.active{
     color:rgb(0, 114, 207);
 }
 
