@@ -107,7 +107,7 @@ nav{
 
 .logo {
     font-weight: bolder;
-    
+    font-size: 36px;
     position: absolute;
     left: 50px;
 }
@@ -122,16 +122,14 @@ nav{
 /*Hero Section*/
 #hero{
     background-color: rgba(0, 140, 255, 0.116);
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     padding: 50px 20px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-
-    
+    align-items: center;    
 }
 
 .hero-container{
