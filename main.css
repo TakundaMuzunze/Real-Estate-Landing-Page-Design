@@ -145,14 +145,14 @@ nav{
 }
 
 .hero-column img{
-    width: 400px;
-}
-@media  (min-width: 1024px) {
-    .hero-column img{
-        width: 700px;
-    }
+    width: 500px;
 }
 
+@media (min-width: 1440px) {
+    .hero-column img{
+        width: 800px;
+    }
+}
 
 /*Main Focus Section*/
 .action-sta{
