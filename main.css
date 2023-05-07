@@ -152,6 +152,27 @@ nav{
     }
 }
 
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 650px;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.filter-btn{
+    padding: 5px 40px;
+    border-radius: 30px;
+    border: 0;
+        
+    background-color: #00A9FF;
+    color: white;
+    font-size: 16px;
+}
+
 /*Main Focus Section*/
 .action-sta{
     text-align:center;
