@@ -1,3 +1,10 @@
+/*CSS Breakpoints
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV*/
+
 /*Document Styling*/
 body{ 
     padding: 0;
@@ -108,44 +115,44 @@ nav{
     display: none;
 }
 
-/* nav {
-    padding: 20px;
-    width: 100%;
-}
-
-.main-nav{
-    list-style-type: none;
-    display: inline-block;
-}
-
-.main-nav li{
-    text-align: center;
-    margin: 20px auto;
-} */
-
 .active{
     color:rgb(0, 114, 207);
 }
 
 /*Hero Section*/
-.hero{
+#hero{
     background-color: rgba(0, 140, 255, 0.116);
-    height: 70vh;
+    height: 75vh;
     width: 100vw;
+    padding: 50px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
 }
 
 .hero-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
+
+    width: 30%;
 }
 .hero-container h1{
     font-size: 48px;
 }
+
+.hero-column img{
+    width: 400px;
+}
+@media  (min-width: 1024px) {
+    .hero-column img{
+        width: 700px;
+    }
+}
+
 
 /*Main Focus Section*/
 .action-sta{
