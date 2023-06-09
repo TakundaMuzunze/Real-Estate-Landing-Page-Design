@@ -127,22 +127,6 @@ nav{
     color:#4373AF;
 }
 
-@media screen and (max-width: 768px){
-    nav,
-    .main-nav{
-        flex-direction: column;
-    }
-    .main-nav{
-        display: none;
-    }
-    .nav-btn{
-        display:none;
-    }
-    .logo{
-        display:none;
-    }
-}
-
 /*Hero Section*/
 #hero{
     background-color: #F6F9FE;
@@ -156,15 +140,6 @@ nav{
     align-items: center;    
 } 
 
-@media(max-width: 479px){
-    #hero{
-       display: none;
-    }
-     .filter-bar{
-        display: none;
-    } 
-}
-
 .hero-container{
     text-align: left;
     text-transform: capitalize;
@@ -177,12 +152,6 @@ nav{
 
 .hero-column img{
     width: 500px;
-}
-
-@media (min-width: 1440px) {
-    .hero-column img{
-        width: 800px;
-    }
 }
 
 .filter-bar{
@@ -218,19 +187,6 @@ nav{
     align-items: center;
     column-gap: 20px;
 
-}
-@media (max-width: 768px){
-    .flex-grid{
-        flex-direction: column;
-        row-gap: 20px;
-    }
-    .item-1{
-        width: 20px;
-        height: 20px;
-    }
-    .more-btn{
-        font-size: 14px;
-    }
 }
 
 .item, .item-1{
@@ -278,28 +234,14 @@ nav{
     border: 1px solid transparent;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 400px;
-}
-
-@media (max-width: 768px) {
-    .card{
-        width: 250px;
-        
-    }
-    .lol{
-        width: 2px;
-        height: 4px;
-    }
-    .property-title{
-        flex-direction: column;
-    }
+    width: 350px;
 }
 
 .card-container{
     padding: 10px 20px;
 }
 .card > img {
-    width: 400px;
+    width: 350px;
     height: auto;
     
     border-radius: 15px 15px 0 0;
@@ -351,19 +293,9 @@ nav{
 }
 
 .image-column > img{
-    width: 300px;
+    width: 250px;
     border-radius: 0 15px 15px 0;
 }
-
-@media (max-width: 768px){
-    .card-featured{
-        flex-direction: column-reverse;
-    }
-    .image-column img{
-        border-radius: 15px 15px 0 0;
-    }
-}
-
 
 /*Blog Section*/
 .blog-desc p{
@@ -390,7 +322,7 @@ nav{
     padding: 50px 20px 50px 20px;
     border-radius: 15px;
     height: 250px;
-    width: 400px;
+    width: 300px;
 
     text-align: center;
 }
@@ -401,12 +333,6 @@ nav{
 
 .checked {
     color: orange;
-}
-
-@media (max-width: 768px){
-    .test_item{
-        width: 250px;
-    }
 }
 
 /*Footer Section*/
@@ -432,6 +358,37 @@ nav{
     font-weight: bolder; 
     text-decoration: underline;
 }
+
+/*Media Queries*/
+@media (max-width: 1023px){
+    nav{
+        height: 40px;
+    }
+    
+    .main-nav,
+    .nav-btn{
+        display: none;
+    }
+
+    .navbar-toggle{
+        position: absolute; 
+        right: 20px;
+    }
+
+    .logo{
+        font-size: 24px;
+        left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px){
     .footer-main{
