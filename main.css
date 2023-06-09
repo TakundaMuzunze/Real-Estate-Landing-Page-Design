@@ -22,7 +22,7 @@ body{
 }
 
 .title-text > h5{
-    color: #00A9FF;
+    color: #4373AF;
 }
 
 .title-text > h1{
@@ -45,11 +45,11 @@ hr{
 }
 
 .btn{
-    color: #00A9FF;
+    color: #4373AF;
     background-color: transparent;
     border-radius: 15px;
     border-width: 2px;
-    border-color: #00A9FF;
+    border-color: #4373AF;
 
     width: 100px;
     padding: 10px 20px;
@@ -67,7 +67,7 @@ section{
 }
 
 span{
-    color:#00A9FF;
+    color:#4373AF;
 }  
 
 a{
@@ -91,7 +91,7 @@ nav{
     border-radius: 25px;
     border: 0;
     
-    background-color: #00A9FF;
+    background-color: #4373AF;
     color: white;
     text-transform: uppercase;
     
@@ -201,7 +201,7 @@ nav{
     border-radius: 30px;
     border: 0;
         
-    background-color: #00A9FF;
+    background-color: #4373AF;
     color: white;
 }
 
@@ -240,7 +240,7 @@ nav{
 }
 
 .item img, .item-1 img{
-    border: 2px solid #00A9FF;
+    border: 2px solid #4373AF;
     border-radius: 15px;
     padding: 20px;
 
@@ -260,11 +260,11 @@ nav{
 }
 
 .more-btn{
-    color: #00A9FF;
+    color: #4373AF;
     background-color: transparent;
     border-radius: 15px;
     border-width: 2px;
-    border-color: #00A9FF;
+    border-color: #4373AF;
 
     width: 100px;
     padding: 10px;
@@ -311,7 +311,7 @@ nav{
 }
 
 .property-title > p{
-    color:#00A9FF;
+    color:#4373AF;
     font-weight: bolder;
 }
 
@@ -372,7 +372,7 @@ nav{
 
 .card-btn {
     text-transform: uppercase;
-    color: #00A9FF;
+    color: #4373AF;
 }
 
 .card-btn:hover{
