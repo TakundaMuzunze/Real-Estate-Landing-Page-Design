@@ -124,7 +124,7 @@ nav{
 
 
 .active-link{
-    color:rgb(0, 114, 207);
+    color:#4373AF;
 }
 
 @media screen and (max-width: 768px){
@@ -145,7 +145,7 @@ nav{
 
 /*Hero Section*/
 #hero{
-    background-color: rgba(0, 140, 255, 0.116);
+    background-color: #F6F9FE;
     height: 70vh;
     width: 100vw;
     padding: 50px 20px;
@@ -335,7 +335,7 @@ nav{
 
 /*Featured Properties*/
 .featured-grid{
-    background-color:rgba(0, 140, 255, 0.116);
+    background-color:#F6F9FE;
 }
 
 .card-featured{
@@ -381,7 +381,7 @@ nav{
 
 /*Testimonial*/
 .testimonial{
-    background-color:rgba(0, 140, 255, 0.116);
+    background-color:#F6F9FE;
 }
 
 .test_item{
