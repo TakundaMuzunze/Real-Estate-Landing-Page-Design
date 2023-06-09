@@ -28,7 +28,7 @@ body{
 .title-text > h1{
     font-weight: bold;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body h1{
         font-size:  16px;
     }
@@ -82,6 +82,8 @@ nav{
     
     padding: 10px;
     align-items: center;
+
+    background-color: white;
 }
 
 .nav-btn{
@@ -119,12 +121,26 @@ nav{
     position: absolute;
     left: 50px;
 }
-.navbar-toggle {
-    display: none;
+
+
+.active-link{
+    color:rgb(0, 114, 207);
 }
 
-.active{
-    color:rgb(0, 114, 207);
+@media screen and (max-width: 768px){
+    nav,
+    .main-nav{
+        flex-direction: column;
+    }
+    .main-nav{
+        display: none;
+    }
+    .nav-btn{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
 }
 
 /*Hero Section*/
@@ -138,6 +154,15 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;    
+} 
+
+@media(max-width: 479px){
+    #hero{
+       display: none;
+    }
+     .filter-bar{
+        display: none;
+    } 
 }
 
 .hero-container{
@@ -194,9 +219,17 @@ nav{
     column-gap: 20px;
 
 }
-@media screen and (max-width: 480px){
+@media (max-width: 768px){
     .flex-grid{
         flex-direction: column;
+        row-gap: 20px;
+    }
+    .item-1{
+        width: 20px;
+        height: 20px;
+    }
+    .more-btn{
+        font-size: 14px;
     }
 }
 
@@ -246,6 +279,20 @@ nav{
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 400px;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 250px;
+        
+    }
+    .lol{
+        width: 2px;
+        height: 4px;
+    }
+    .property-title{
+        flex-direction: column;
+    }
 }
 
 .card-container{
@@ -308,6 +355,16 @@ nav{
     border-radius: 0 15px 15px 0;
 }
 
+@media (max-width: 768px){
+    .card-featured{
+        flex-direction: column-reverse;
+    }
+    .image-column img{
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+
 /*Blog Section*/
 .blog-desc p{
     opacity: 50%;
@@ -346,9 +403,16 @@ nav{
     color: orange;
 }
 
+@media (max-width: 768px){
+    .test_item{
+        width: 250px;
+    }
+}
+
 /*Footer Section*/
 .footer-main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 50px 20px;
     width: 100vw;
@@ -367,4 +431,11 @@ nav{
 .footer-links a:hover{
     font-weight: bolder; 
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px){
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
