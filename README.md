@@ -38,4 +38,6 @@ Check out the live demo of the project [here](https://real-estate-landing-page-b
 
 ## Acknowledgements
 
-I would like to express my gratitude to the talented designer on Behance for the amazing inspiration behind this project - **[Name of Designer](Behance Profile URL)**
+I would like to express my gratitude to the talented designer on Behance for the amazing inspiration behind this project - **[Nayem Mir](https://www.behance.net/Nayemmir4)**
+
+**[View Behance Design](https://www.behance.net/gallery/137531189/Real-Estate-Landing-Page)**
