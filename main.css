@@ -325,7 +325,7 @@ nav{
 }
 
 .checked {
-    color: orange;
+    color: rgb(253, 170, 13); 
 }
 
 /*Footer Section*/
@@ -474,7 +474,11 @@ nav{
         border-radius: 15px 15px 0 0;
     }
 
-
+    .test_item{
+        padding: 40px 20px 40px 20px;
+        height: 250px;
+        width: 250px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -490,8 +494,20 @@ nav{
         margin: 0 auto;
         padding: 5px 10px;
     }
-    
-
 }
 
+@media (min-width: 1024px) and (max-width: 1199px){
+    .card, 
+    .card > img{ 
+        width: 300px;
+    }    
+    .card-container{
+        padding: 10px 20px;
+    }
 
+    .test_item{
+        padding: 40px 20px 40px 20px;
+        height: 250px;
+        width: 250px;
+    }
+}
