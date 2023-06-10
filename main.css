@@ -42,6 +42,7 @@ hr{
     border-radius: 15px;
     border-width: 2px;
     border-color: #4373AF;
+    cursor: pointer;
 
     width: 100px;
     padding: 10px 20px;
@@ -112,6 +113,9 @@ nav{
     left: 50px;
 }
 
+/* .navbar-toggle{
+    display: none;
+} */
 
 .active-link{
     color:#4373AF;
@@ -175,7 +179,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 20px;
+    gap: 20px;
 
 }
 
@@ -349,7 +353,7 @@ nav{
     text-decoration: underline;
 }
 
-/*Media Queries*/
+/*Responsive Media Queries*/
 @media screen and (max-width: 768px) {
     body h1{
         font-size:  16px;
@@ -358,6 +362,51 @@ nav{
         font-size: 14px;
     }
 }
+
+@media (max-width: 479px){
+    .item, .item-1{
+        padding: 50px 20px;
+        height: 250px;
+        width: 250px;
+    }
+    .item img, .item-1 img{
+        padding: 15px;  
+        height: 32px;
+        width: 32px;
+    }
+
+    .card, 
+    .card > img{ 
+        width: 300px;
+    }    
+    .card-container{
+        padding: 10px 20px;
+    }
+
+    .card-featured{
+        flex-direction: column-reverse;
+    }   
+    .card-container2{
+        padding: 30px 20px;
+    }    
+    .image-column > img{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .comp-desc{
+        width: 75%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}
+
 
 
 @media (max-width: 1023px){
@@ -403,7 +452,7 @@ nav{
         justify-content: space-between;
     
         width: 350px;
-        margin: auto;
+        margin: 0 auto;
         padding: 5px 5px;
         border-radius: 30px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -425,20 +474,9 @@ nav{
         background-color: #4373AF;
         color: white;
     }
-}
 
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px){
-    .footer-main{
+    .flex-grid{
         flex-direction: column;
-        justify-content: center;
     }
 }
+
