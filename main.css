@@ -113,9 +113,9 @@ nav{
     left: 50px;
 }
 
-/* .navbar-toggle{
+.navbar-toggle{
     display: none;
-} */
+}
 
 .active-link{
     color:#4373AF;
