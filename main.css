@@ -28,14 +28,6 @@ body{
 .title-text > h1{
     font-weight: bold;
 }
-@media screen and (max-width: 768px) {
-    body h1{
-        font-size:  16px;
-    }
-    body p{
-        font-size: 14px;
-    }
-}
 
 hr{
     height: 1px;
@@ -358,6 +350,16 @@ nav{
 }
 
 /*Media Queries*/
+@media screen and (max-width: 768px) {
+    body h1{
+        font-size:  16px;
+    }
+    body p{
+        font-size: 14px;
+    }
+}
+
+
 @media (max-width: 1023px){
     nav{
         height: 40px;
@@ -389,11 +391,39 @@ nav{
         width: 300px;
     }
     .hero-container{    
-        width: 100%;
+        width: 100vw;
         text-align: center;
     }
     .hero-container h1{
         font-size: 24px;
+    }
+
+    .filter-bar{
+        display: flex;
+        justify-content: space-between;
+    
+        width: 350px;
+        margin: auto;
+        padding: 5px 5px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .filter-bar p {
+        font-size: 12px;
+    }
+
+    .filter-bar i{
+        padding-right: 5px;
+    }
+    
+    .filter-btn{
+        padding: 5px 15px;
+        border-radius: 30px;
+        border: 0;
+        font-size: 12px;    
+        background-color: #4373AF;
+        color: white;
     }
 }
 
